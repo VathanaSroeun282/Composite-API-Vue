@@ -26,7 +26,7 @@
     const handleClickMeme = (index) => {
         myMeme[index].value = myArray[index].id;
         myArray.forEach(key => key.show == false);
-        myArray[index].show = true;
+        myArray[index].show = !myArray[index].show;
     }
 </script>
 <template>
