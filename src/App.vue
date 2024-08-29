@@ -6,7 +6,8 @@
   // import GG5 from './components/GG5.vue';
   // import GG6 from './components/GG6.vue';
   // import GG6v2 from './components/GG6v2.vue';
-  import GG7 from './components/GG7.vue';
+  // import GG7 from './components/GG7.vue';
+  import GG7v2 from './components/GG7v2.vue';
 </script>
 
 <template>
@@ -17,6 +18,7 @@
     <!-- <GG5></GG5> -->
     <!-- <GG6></GG6> -->
     <!-- <GG6v2></GG6v2> -->
-     <GG7></GG7>
+     <!-- <GG7></GG7> -->
+      <GG7v2></GG7v2>
 </template>
 
