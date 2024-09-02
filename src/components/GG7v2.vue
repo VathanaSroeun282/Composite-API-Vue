@@ -48,7 +48,7 @@ import {computed, handleError, ref} from 'vue';
                 <input type="checkbox" v-model="item.done">
                 <button @click="handleDelete(item)">Delete</button>
             </li><br>
-        </ul>
+        </ul>   
         <button @click="boxCheck =!boxCheck">{{ boxCheck?'Hide':'Show' }}</button>
     </div>
 </template>
