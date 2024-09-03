@@ -15,7 +15,10 @@
   // import GG9_LifecycleandTemplateRefs from './components/GG9_LifecycleandTemplateRefs.vue';
   // import GG10Wather from './components/GG10Wather.vue';
   // import GG10v2 from './components/GG10v2.vue';
-  import GG10v3 from './components/GG10v3.vue';
+  // import GG10v3 from './components/GG10v3.vue';
+  // import GG10v4 from './components/GG10v4.vue';
+  // import GG10v5 from './components/GG10v5.vue';
+  import GG10v6 from './components/GG10v6.vue';
 </script>
 
 <template>
@@ -35,5 +38,8 @@
     <!-- <GG9_LifecycleandTemplateRefs></GG9_LifecycleandTemplateRefs> -->
     <!-- <GG10Wather></GG10Wather> -->
     <!-- <GG10v2></GG10v2>     -->
-     <GG10v3></GG10v3>
+    <!-- <GG10v3></GG10v3> -->
+    <!-- <GG10v4></GG10v4> -->
+    <!-- <GG10v5></GG10v5> -->
+    <GG10v6></GG10v6>
 </template>
