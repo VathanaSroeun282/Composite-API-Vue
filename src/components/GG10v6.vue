@@ -34,7 +34,7 @@ watch(myArray, (myArray) => {
 }, { deep: true });
 setInterval(() => {
     myArray.ADDRESS.StreetNumber += 4;
-}, 1000)
+}, 500)
 
 watch(x, newX => console.log("This is new X1 : " + newX));
 watch(() => x.value + y.value, sum => console.log("Sum X + Y is : " + sum));
