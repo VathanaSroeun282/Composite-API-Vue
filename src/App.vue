@@ -20,7 +20,9 @@
   // import GG10v5 from './components/GG10v5.vue';
   // import GG10v6 from './components/GG10v6.vue';
   // import GG10v7EagerWatchers from './components/GG10v7EagerWatchers.vue';
-  import GG10v8WatchEffect from './components/GG10v8WatchEffect.vue';
+  // import GG10v8WatchEffect from './components/GG10v8WatchEffect.vue';
+  // import GG10v9 from './components/GG10v9.vue';
+  import GG10v10CleanUp from './components/GG10v10CleanUp.vue';
 </script>
 
 <template>
@@ -45,5 +47,7 @@
     <!-- <GG10v5></GG10v5> -->
     <!-- <GG10v6></GG10v6> -->
     <!-- <GG10v7EagerWatchers></GG10v7EagerWatchers> -->
-    <GG10v8WatchEffect></GG10v8WatchEffect>    
+    <!-- <GG10v8WatchEffect></GG10v8WatchEffect>     -->
+    <!-- <GG10v9></GG10v9> -->
+    <GG10v10CleanUp></GG10v10CleanUp>
 </template>
