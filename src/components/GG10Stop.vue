@@ -1,15 +1,17 @@
 <script setup>
-    import { ref, watch, watchEffect } from 'vue';
-    const count = ref(0);
+import { ref, watch, watchEffect } from 'vue';
+const count = ref(0);
+setTimeout(() => {
     watch(count, newCount => {
-        console.log("THis is in watch function : ",newCount);
-    }, {flush : 'pre'});
-    watchEffect(()=>{
+        console.log("THis is in watch function : ", newCount);
+    }, { flush: 'pre' });
+    watchEffect(() => {
         console.log("This is data of count  : ", count.value);
-    },{flush : 'pre'})
-    setInterval(()=>{
+    }, { flush: 'pre' })
+    setInterval(() => {
         count.value++;
     }, 1000);
+}, 5000)
 </script>
 <template>
     <div>

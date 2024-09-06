@@ -23,7 +23,9 @@
   // import GG10v8WatchEffect from './components/GG10v8WatchEffect.vue';
   // import GG10v9 from './components/GG10v9.vue';
   // import GG10v10CleanUp from './components/GG10v10CleanUp.vue';
-  import GG10v11 from './components/GG10v11.vue';
+  // import GG10v11 from './components/GG10v11.vue';
+  // import GG11Stop from './components/GG10Stop.vue';
+  import GG11TemRef from './components/GG11TemRef.vue';
 </script>
 
 <template>
@@ -51,5 +53,7 @@
     <!-- <GG10v8WatchEffect></GG10v8WatchEffect>     -->
     <!-- <GG10v9></GG10v9> -->
     <!-- <GG10v10CleanUp></GG10v10CleanUp> -->
-    <GG10v11></GG10v11>
+    <!-- <GG10v11></GG10v11> -->
+     <!-- <GG11Stop></GG11Stop> -->
+    <GG11TemRef></GG11TemRef>
 </template>
